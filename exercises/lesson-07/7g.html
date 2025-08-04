@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Functions</title>
+  </head>
+  <body>
+    <script>
+      function convertLength(lenght, from, to) {
+        if (from === 'km' && to === 'miles') {
+          return `${lenght / 1.6} miles`;
+        } else if (from === 'miles' && to === 'km') {
+          return `${lenght * 1.6} km`;
+        } else if (from === to) {
+          return `${lenght} ${to}`
+        }
+      }
+
+      console.log(convertLength(50, 'miles', 'km'));
+      console.log(convertLength(32, 'km', 'miles'));
+      console.log(convertLength(50, 'km', 'km'));
+    </script>
+  </body>
+</html>
