@@ -7,4 +7,4 @@ My goal is to become a frontend developer and this repository is the beginning o
 
 In this repository I will be doing exercises from the [**JavaScript Сourse**](https://www.youtube.com/watch?v=EerdGm-ehJQ) by [**SuperSimpleDev**](https://github.com/SuperSimpleDev). Thanks a lot to him.
 
-P.S. Also, this is my first time using Github. Kinda nervous :P
+P.S. Also, this is my first time using GitHub. Kinda nervous :P
