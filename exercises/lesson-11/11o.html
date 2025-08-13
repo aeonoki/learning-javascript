@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script>
+      function searchInArray(array) {
+        let index = -1;
+
+        for (let i = 0; i < array.length; i++) {
+          if (array[i] === 'search') {
+            index = i
+          }
+        }
+
+        return index;
+      }
+
+      console.log(searchInArray(['hello', 'world', 'search', 'good']));
+      console.log(searchInArray(['not', 'found']));
+    </script>
+  </body>
+</html>
